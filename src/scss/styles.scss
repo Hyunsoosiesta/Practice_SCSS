@@ -1,9 +1,27 @@
 @import "_variables.scss";
+@import "_mixins.scss";
 
-body {
-  background: $bg;
+h1 {
+  @include sexyTitle();
 }
 
-.box h1 {
-  font-size: $title;
+// a {
+//   margin-bottom : 1rem;
+//   &:nth-child(odd) {
+//     @include link(red);
+//   }
+//   &:nth-child(even) {
+//     @include link(blue);
+//   }
+// }
+
+a {
+  margin-bottom : 1rem;
+  font-weight: 800;
+  &:nth-child(odd) {
+    @include link("odd");
+  }
+  &:nth-child(even) {
+    @include link("even");
+  }
 }
