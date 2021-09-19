@@ -1,1 +1,1 @@
-h1{color:#00f;font-size:30px;margin-bottom:12px}a{margin-bottom:1rem;font-weight:800}a:nth-child(even),a:nth-child(odd){text-decoration:none;display:block;color:pink}a:nth-child(even){color:#4169e1}
+a,button{font-family:inherit;border-radius:7px;font-size:50px;text-transform:uppercase;padding:5px 10px;background-color:#4169e1;color:#fff;font-weight:600;margin:10px}a{text-decoration:none}button{border:0}
